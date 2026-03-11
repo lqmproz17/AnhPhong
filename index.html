@@ -1,120 +1,41 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html>
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nguyễn Lâm Anh Phong | Profile</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --primary-color: #2563eb;
-            --bg-color: #f8fafc;
-            --text-color: #1e293b;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-
-        .card {
-            background: white;
-            padding: 2rem;
-            border-radius: 20px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-            max-width: 400px;
-            width: 90%;
-            text-align: center;
-            transition: transform 0.3s ease;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-        }
-
-        .profile-img {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            background: linear-gradient(45deg, #2563eb, #7dd3fc);
-            margin: 0 auto 1.5rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 3rem;
-            color: white;
-            font-weight: 600;
-        }
-
-        h1 {
-            margin: 0.5rem 0;
-            font-size: 1.5rem;
-            font-weight: 600;
-        }
-
-        p {
-            color: #64748b;
-            margin-bottom: 2rem;
-        }
-
-        .links {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        .link-btn {
-            text-decoration: none;
-            padding: 12px;
-            border-radius: 10px;
-            font-weight: 500;
-            transition: all 0.2s;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-        }
-
-        .fb-btn {
-            background-color: #1877F2;
-            color: white;
-        }
-
-        .mail-btn {
-            background-color: #f1f5f9;
-            color: #1e293b;
-            border: 1px solid #e2e8f0;
-        }
-
-        .link-btn:hover {
-            opacity: 0.9;
-            filter: brightness(1.1);
-        }
-    </style>
+    <title>Học trục tuyến CNTT</title>
 </head>
+
 <body>
 
-    <div class="card">
-        <div class="profile-img">P</div>
-        
-        <h1>Nguyễn Lâm Anh Phong</h1>
-        <p>Chào mừng bạn đã ghé thăm trang cá nhân của mình!</p>
+    <table border="1" width="800" height="300">
+        <tr>
+            <!--Menu bên trái-->
 
-        <div class="links">
-            <a href="https://www.facebook.com/phong.chill.283228" target="_blank" class="link-btn fb-btn">
-                Facebook
-            </a>
-            <a href="mailto:nguyenlamanhphong2025@gmail.com" class="link-btn mail-btn">
-                Gửi Email cho mình
-            </a>
-        </div>
-    </div>
+            <td width="200" valign="top">
+                <h3>Trang chủ</h3>
+                <p>Khoá học</p>
+                <p>Diễn đàn</p>
+                <p>Liên hệ</p>
+            </td>
+
+            <!--Nội dung bên phải-->
+            <td valign="top">
+
+                <h2>Học trực tuyến cộng nghệ thông tin </h2>
+
+                <h3>Các khoá học:</h3>
+
+                <ol>
+                    <li>lập trình cơ bản</li>
+                    <li>Cấu trúc dữ liệu</li>
+                    <li>Thiết ké web</li>
+                </ol>
+
+            </td>
+        </tr>
+    </table>
 
 </body>
+
 </html>
